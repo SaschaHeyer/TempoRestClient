@@ -6,7 +6,8 @@
 
 
 ## Installing
-The TempoRestClient is is available on NuGet soon
+The client is available on NuGet:
+> Install-Package TempoRestClient -Pre
 
 ## Using the client
 ### Basic usage
