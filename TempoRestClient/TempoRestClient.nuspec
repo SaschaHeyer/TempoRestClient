@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>SaschaHeyer.TempoRestClient</id>
-    <version>1.0</version>
+    <id>TempoRestClient</id>
+    <version>1.0.0-alpha</version>
     <title>TempoRestClient</title>
     <authors>Sascha Heyer</authors>
     <licenseUrl>https://github.com/SaschaHeyer/TempoRestClient/blob/master/LICENSE</licenseUrl>
