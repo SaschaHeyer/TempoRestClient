@@ -5,7 +5,7 @@ using RestSharp.Authenticators;
 using RestSharp.Deserializers;
 using TempoRestClient.Globals;
 using TempoRestClient.Interfaces;
-using TempoRestClient.Model;
+using TempoRestClient.Models;
 
 namespace TempoRestClient.Client
 {

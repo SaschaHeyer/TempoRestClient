@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SaschaHeyer.TempoRestClient</id>
+    <version>1.0</version>
+    <title>TempoRestClient</title>
+    <authors>Sascha Heyer</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/SaschaHeyer/TempoRestClient/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SaschaHeyer/TempoRestClient</projectUrl>
+    <iconUrl>https://github.com/SaschaHeyer/TempoRestClient/blob/master/PackageIcon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A client for the Tempo.io REST API</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright (c) 2017 Sascha Heyer</copyright>
+    <dependencies>
+      <dependency id="RestSharp" version="[105.2,)" />
+    </dependencies>
+  </metadata>
+</package>

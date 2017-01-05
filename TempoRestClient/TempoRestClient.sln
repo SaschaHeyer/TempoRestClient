@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempoRestClient", "TempoRes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1270F9AA-82A1-42BE-9822-D69DEC963D45}"
 	ProjectSection(SolutionItems) = preProject
+		PackageIcon.png = PackageIcon.png
 		..\README.md = ..\README.md
+		TempoRestClient.nuspec = TempoRestClient.nuspec
 	EndProjectSection
 EndProject
 Global
