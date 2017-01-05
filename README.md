@@ -36,3 +36,5 @@ IEnumerable<IWorklog> worklogs = TempoRest.Configure(account)
     .FilterUsername("foo.bar")
     .ExecuteWorklogRequest();
 ```
+## Release Notes
+see https://github.com/SaschaHeyer/TempoRestClient/blob/master/ReleaseNotes.md
