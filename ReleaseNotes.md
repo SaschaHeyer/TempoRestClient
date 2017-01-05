@@ -6,3 +6,5 @@
 * Added release notes
 
 ### Bug Fixes
+
+* fixed nuspec files

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TempoRestClient</id>
-    <version>1.0.1-alpha</version>
+    <version>1.0.2-alpha</version>
     <title>TempoRestClient</title>
     <authors>Sascha Heyer</authors>
     <licenseUrl>https://github.com/SaschaHeyer/TempoRestClient/blob/master/LICENSE</licenseUrl>
@@ -10,12 +10,9 @@
     <iconUrl>https://raw.githubusercontent.com/SaschaHeyer/TempoRestClient/master/TempoRestClient/PackageIcon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A client for the Tempo.io REST API</description>
-    <releaseNotes></releaseNotes>
     <copyright>Copyright (c) 2017 Sascha Heyer</copyright>
     <releaseNotes>
-      <![CDATA[
-            For full release notes see https://github.com/restsharp/RestSharp/blob/master/ReleaseNotes
-            ]]>
+      <![CDATA[For full release notes see https://github.com/restsharp/RestSharp/blob/master/ReleaseNotes]]>
     </releaseNotes>
     <dependencies>
       <dependency id="RestSharp" version="[105.2,)" />
@@ -23,7 +20,6 @@
   </metadata>
 
   <files>
-    <file src="../readme.md" target="" />
-    <file src="bin\Release\RestSharp.dll" target="" />
+    <file src="bin\Release\TempoRestClient.dll" target="lib" />
   </files>
 </package>
