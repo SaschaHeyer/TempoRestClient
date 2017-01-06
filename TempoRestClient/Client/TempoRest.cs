@@ -14,11 +14,11 @@ namespace TempoRestClient.Client
         private readonly RestClient _restClient;
         private readonly IRestRequest _restRequest;
 
-        private TempoRest(ITempoAccount tempoAccountAccount)
+        private TempoRest(ITempoAccount tempoAccount)
         {
-            _restClient = new RestClient(new Uri(new Uri(tempoAccountAccount.ServerUrl), "/rest/tempo-timesheets/3/"))
+            _restClient = new RestClient(new Uri(new Uri(tempoAccount.ServerUrl), "/rest/tempo-timesheets/3/"))
             {
-                Authenticator = new HttpBasicAuthenticator(tempoAccountAccount.User, tempoAccountAccount.Password)
+                Authenticator = new HttpBasicAuthenticator(tempoAccount.User, tempoAccount.Password)
             };
 
             _restRequest = new RestRequest(
@@ -29,9 +29,9 @@ namespace TempoRestClient.Client
             };
         }
 
-        public static IFilter Configure(ITempoAccount account)
+        public static IFilter Configure(ITempoAccount tempoAccount)
         {
-            return new TempoRest(account);
+            return new TempoRest(tempoAccount);
         }
 
         public static IFilter Configure(string serverUrl, string user, string password)
